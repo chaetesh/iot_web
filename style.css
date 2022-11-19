@@ -1,0 +1,30 @@
+.nav-item{
+    margin: 0 20px;
+}
+.navbar{
+    background-color: #3d0463;
+}
+.main
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-page{
+    margin-top: 0px;
+    /* background-color: rgba(97, 97, 97,0.6); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    background-color: #3d0463;
+}
+@media (max-width: 576px) { 
+    .login-page{
+        width: 100% !important;
+    }
+ }
